@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% include 'navbar.html' %}
+    <div class="container mt-4">
+        {% include 'accordion.html' %}
+        {% include 'toast.html' %}
+    </div>
+    {% include 'footer.html' %}
+{% endblock %}
